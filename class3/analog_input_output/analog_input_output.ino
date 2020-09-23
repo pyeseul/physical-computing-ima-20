@@ -1,9 +1,9 @@
 /* This code reads analog values from a potentiometer connected to A0, 
- * prints it out to the serial monitor, and change the brightness of an LED connected to Pin2.
+ * prints it out to the serial monitor, and change the brightness of an LED connected to Pin9.
  */
 
 const int sensorPin = A0;
-const int ledPin = 2;  
+const int ledPin = 9;  
   
 int sensorValue = 0;
 int sensorValue_mapped = 0;
